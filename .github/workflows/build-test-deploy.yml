@@ -58,7 +58,7 @@ jobs:
         with:
           node-version: '20.x'
       - name: Configure GitHub Pages
-        uses: actions/upload-pages-artifact@v4
+        uses: actions/upload-pages-artifact@v3
         with:
           static_site_generator: next
       - run: npm install
